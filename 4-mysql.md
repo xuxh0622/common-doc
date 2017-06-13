@@ -4,7 +4,7 @@
 
 ```bash
 $ mysql -h 10.10.65.137 -p 7879 -u root -p111111  #登录-u 用户名 -p 密码 -h 地址
-#mysqldump -h 10.6.10.119 -u o2o_user -po2o_user o2o_sit > d:/o2o.sql
+#mysqldump -h 127.0.0.1 -u root -proot test > d:/test.sql
 $ mysqldump -hhostname -uusername -ppassword -Pport databasename > backupfile.sql  #备份databasename数据库
 $ mysql -hhostname -uusername -ppassword databasename < backupfile.sql  #恢复数据库备份
 ```
