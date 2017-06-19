@@ -34,6 +34,7 @@ $ git checkout [branch-name]  #切换到指定分支，并更新工作区
 $ git branch --set-upstream [branch] [remote-branch]  #建立追踪关系，在现有分支与指定远程分支之间
 $ git merge [branch] --no-ff -m [message] #合并指定分支到当前分支
 $ git branch -d [branch-name]  #删除远程分支
+$ git branch -D [branch-name]  #删除本地分支
 $ git push origin local-branch:remote-branch #推送本地代码到远程分支
 $ git push origin :remote-branch #删除远程分支
 $ git tag -d [tag-name]  #删除远程标签
