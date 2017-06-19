@@ -36,6 +36,7 @@ $ git merge [branch] --no-ff -m [message] #合并指定分支到当前分支
 $ git branch -d [branch-name]  #删除远程分支
 $ git push origin local-branch:remote-branch #推送本地代码到远程分支
 $ git push origin :remote-branch #删除远程分支
+$ git tag -d [tag-name]  #删除远程标签
 ```
 
 ###### 5.查看信息
