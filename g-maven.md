@@ -12,6 +12,7 @@ $ mvn clean deploy  #发布到远程仓库
 ##### 版本发布
 
 ```bash
+$ mvn clean -X -Darguments="-DskipTests -Dmaven.test.skip=true -Dmaven.javadoc.skip=true -Dmaven.source.skip=true" release:prepare #跳过测试
 $ mvn release:prepare -P prod -X #打release包，然后升级snapshot，提交新的pom文件
 $ mvn release:rollback -P prod #回退，但不会删除prepare生成的标签，需要手动删除
 $ git tag -d [tag-name]  #删除远程标签
