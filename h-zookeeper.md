@@ -1,3 +1,5 @@
+## linux下面操作
+
 ```shell
 [zookeeper * bin] zkServer.sh start  #启动服务  
 [zookeeper * bin]zkServer.sh stop  #关闭服务 
