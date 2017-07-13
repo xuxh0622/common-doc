@@ -1,6 +1,6 @@
 ##### 常用命令
 
-> 基于`C:\Users\xuxhm\.m2`下面`setting.xml`配置文件
+> 基于`C:\Users\alice\.m2`下面`setting.xml`配置文件
 
 ```bash
 $ mvn clean test  #测试
