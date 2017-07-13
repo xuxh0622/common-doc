@@ -1,5 +1,4 @@
 ```shell
-[zookeeper *] cd /usr/alice/zookeeper/zookeeper-3.4.9/bin  
 [zookeeper * bin] zkServer.sh start  #启动服务  
 [zookeeper * bin]zkServer.sh stop  #关闭服务 
 [zookeeper * bin] cd ../logs  #跳转到logs文件地址  
