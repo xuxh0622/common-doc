@@ -1,5 +1,9 @@
 #### 快捷键
 
+```
+-Xms1024M -Xmx1024M -XX:PermSize=512M -XX:MaxPermSize=512M
+```
+
 ```java
 /**
  * 快捷键
