@@ -50,3 +50,5 @@ public class KeyHot {
 }
 ```
 
+##### tomcat配置
+.metadata.plugins\org.eclipse.core.runtime.settings删除org.eclipse.wst.server.core.prefs，org.eclipse.jst.server.tomcat.core.prefs
