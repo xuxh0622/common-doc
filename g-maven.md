@@ -5,6 +5,7 @@
 ```bash
 $ mvn clean test  #测试
 $ mvn clean package  #打包放到targe目录下
+$ mvn clean package -P dev -Dmaven.test.skip=true
 $ mvn clean install  #发布到本地仓库
 $ mvn clean deploy  #发布到远程仓库
 ```
