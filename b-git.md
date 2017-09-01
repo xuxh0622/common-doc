@@ -80,3 +80,20 @@ $ git merge iteration_1 --no-ff  #合并分支代码
 $ git commit  #提交代码
 $ git push  #推到远程
 ```
+
+##### 2.实战2
+```bash
+git remote -v  #查看远程分支
+git remote add originBase 远程链接地址  #添加主远程分支，用于拉取最新代码
+git config --global user.emal "url"
+git config --global user.name "name"
+git status #查看本地空间代码变化
+git diff #查看工作区和暂存区代码区别
+git stash #备份当前的工作区的内容到Git栈
+git fetch originBase #相当于是从远程获取最新版本到本地，不会自动合并
+git rebase originBase/master #合并代码，若有冲突，此刻需要解决冲突
+git stash pop #恢复工作区代码
+git add fileDir #添加代码到暂存区
+git commit -m '备注' #提交代码到本地仓库区
+git push origin master #推送代码到远程仓库区
+```
