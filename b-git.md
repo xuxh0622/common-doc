@@ -81,7 +81,7 @@ $ git commit  #提交代码
 $ git push  #推到远程
 ```
 
-##### 2.实战2
+##### 2.获取远程分支代码并合并提交
 ```bash
 git remote -v  #查看远程分支
 git remote add originBase 远程链接地址  #添加主远程分支，用于拉取最新代码
