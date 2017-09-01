@@ -63,7 +63,9 @@ $ git remote set-url origin [url]  #修改远程地址
 
 ```bash
 $ git checkout .  #恢复暂存区的指定文件到工作区
+$ git checkout -- readme.md  #恢复暂存区的指定文件到工作区
 $ git reset --hard  #重置暂存区与工作区，与上一次commit一致
+$ git reset HEAD readme.md #重置暂存区与工作区，与上一次commit一致
 ```
 
 #### 实战
